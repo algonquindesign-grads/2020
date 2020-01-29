@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #000;
+  --color-light: #36d1dc;
+  --color-dark: #5b86e5;
+  --color-accent: #abe600;
+  --color-neutral: #c0c0c0;
+  --color-white: #fff;
+
+  --font-primary: "EB Garamond", serif;
+  --font-secondary: "Oswald", sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
+
+h1,h2,h3,h4 {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+h5 {
+  font-family: var(--font-secondary);
+  font-weight: 400;
+  color: var(--color-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-primary);
+  text-decoration: none;
+}
