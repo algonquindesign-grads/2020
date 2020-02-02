@@ -16,28 +16,60 @@
   transition: all .3s ease-in-out;
 }
 
-.logo-nav:hover > .wordmark > .underline,
-.main-nav li > a:hover + .underline,
-.main-nav .active + .underline {
-  width: 100%;
-}
-
 /* MAIN NAVIGATION */
 
-.main-nav  li {
-  display: inline-block;
+.main-nav {
+  height: 0;
+  background-color: #f2f2f2;
+  transition: all .4s ease-in-out;
+
+  overflow: hidden;
 }
 
-.main-nav  li a {
+.main-check[type="checkbox"] + label::before {
+  position: absolute;
+  top: -20em;
+  left: -20em;
+}
+
+.main-nav li {
+  text-align: center;
+}
+
+.main-nav li a {
   text-decoration: none;
   color: var(--color-primary);
+}
+
+.main-nav li a:hover,
+.main-nav li a:focus {
+  color: var(--color-white);
+  text-decoration: none;
+  background-color: var(--color-neutral);
+}
+
+.main-check:checked ~ nav .main-nav {
+  height: 84px;
+}
+
+.main-check ~ label:focus {
+  outline-color: var(--color-accent);
 }
 
 @media only screen and (min-width: 38em) {
 
   /* LOGO NAVIGATION — CONTINUED */
 
-  .logo-nav > .logo {
+  .main-nav {
+    height: unset;
+    background-color: transparent;
+
+    overflow: auto;
+  }
+
+  .logo-nav > .logo,
+  .main-check[type="checkbox"] + label::before,
+  .main-check ~ label {
     display: none;
   }
 
@@ -45,6 +77,22 @@
     display: block;
   }
 
+  .logo-nav:hover > .wordmark > .underline,
+  .main-nav li > a:hover + .underline,
+  .main-nav .active + .underline {
+    width: 100%;
+  }
+
   /* MAIN NAVIGATION — CONTINUED */
+
+  .main-nav  li {
+    display: inline-block;
+  }
+
+  .main-nav li a:hover,
+  .main-nav li a:focus {
+    background-color: transparent;
+    color: var(--color-primary);
+  }
 
 }
