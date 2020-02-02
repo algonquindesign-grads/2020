@@ -42,7 +42,8 @@
 }
 
 .main-nav li a:hover,
-.main-nav li a:focus {
+.main-nav li a:focus,
+.main-nav .active {
   color: var(--color-white);
   text-decoration: none;
   background-color: var(--color-neutral);
@@ -90,7 +91,8 @@
   }
 
   .main-nav li a:hover,
-  .main-nav li a:focus {
+  .main-nav li a:focus,
+  .main-nav .active {
     background-color: transparent;
     color: var(--color-primary);
   }
