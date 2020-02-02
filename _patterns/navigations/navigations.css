@@ -6,17 +6,31 @@
   max-width: 10em;
 }
 
-.logo-nav > .wordmark > .underline {
-  height: .15rem;
+.logo-nav > .wordmark > .underline,
+.main-nav li > .underline {
+  border-width: 2px;
   width: 0%;
-  margin-top: .2em;
+  margin-top: .15em;
   border-color: var(--color-primary);
 
   transition: all .3s ease-in-out;
 }
 
-.logo-nav:hover > .wordmark > .underline {
+.logo-nav:hover > .wordmark > .underline,
+.main-nav li > a:hover + .underline,
+.main-nav .active + .underline {
   width: 100%;
+}
+
+/* MAIN NAVIGATION */
+
+.main-nav  li {
+  display: inline-block;
+}
+
+.main-nav  li a {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 @media only screen and (min-width: 38em) {
@@ -30,5 +44,7 @@
   .logo-nav > .wordmark {
     display: block;
   }
+
+  /* MAIN NAVIGATION — CONTINUED */
 
 }
