@@ -1,3 +1,53 @@
 title: "Buttons"
 description: |
   Here are all the available button patterns for the 2020 grad show website.
+
+patterns:
+  regular-btn:
+    title: "Regular Button"
+    description: |
+      A very standard button. Used in any context with a light background.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See Our Designers"
+      - name: url
+        type: string
+        example: "#"
+  light-btn:
+    title: "Light Button"
+    description: |
+      A very standard light button. Used in any context with a dark background.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See Our Designers"
+      - name: url
+        type: string
+        example: "#"
+  ghost-btn:
+    title: "Ghost Button"
+    description: |
+      A standard ghost button. Used to bring a little attention to an area of interest.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See Our Designers"
+      - name: url
+        type: string
+        example: "#"
+  fancy-btn:
+    title: "Fancy Button"
+    description: |
+      A fancy button. Used to bring a lot of attention to an area of interest.
+    padding: 1em
+    fields:
+      - name: text
+        type: string
+        example: "See Our Designers"
+      - name: url
+        type: string
+        example: "#"
