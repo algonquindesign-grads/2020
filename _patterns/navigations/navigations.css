@@ -20,10 +20,13 @@
 
 .main-nav {
   height: 0;
-  background-color: #f2f2f2;
   transition: all .4s ease-in-out;
 
   overflow: hidden;
+}
+
+.main-nav ~ nav {
+  padding-top: .75rem;
 }
 
 .main-check[type="checkbox"] + label::before {
@@ -50,7 +53,7 @@
 }
 
 .main-check:checked ~ nav .main-nav {
-  height: 84px;
+  height: 69px;
 }
 
 .main-check ~ label:focus {
@@ -85,6 +88,10 @@
   }
 
   /* MAIN NAVIGATION — CONTINUED */
+
+  .main-nav ~ nav {
+    padding-top: 0;
+  }
 
   .main-nav  li {
     display: inline-block;
