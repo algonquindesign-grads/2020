@@ -1,3 +1,15 @@
 title: "Navigations"
 description: |
-  Here is the available navigation patterns for the 2020 grad show website.
+  Here are all the available navigation patterns for the 2020 grad show website.
+
+patterns:
+  logo-nav:
+    title: "Logo Navigation"
+    description: |
+      The logo navigation can be used to jump back to the home page at anytime.
+    padding: 1em
+  main-nav:
+    title: "Main Navigation"
+    description: |
+      The main navigation can be used to travel to the designers or supports page.
+    padding: 1em
