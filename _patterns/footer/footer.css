@@ -1,0 +1,20 @@
+footer {
+  /* background-image: linear-gradient(to left, rgba(54, 209, 220, .25), rgba(91, 134, 229, .25)); */
+  /* border: 5px solid #000; */
+}
+
+.footer div:first-child {
+  text-align: right
+}
+
+@media only screen and (min-width: 38em) {
+
+  .footer div:first-child {
+    text-align: left;
+  }
+
+  .footer div:nth-child(2) {
+    text-align: right;
+  }
+
+}
