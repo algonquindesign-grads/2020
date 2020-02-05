@@ -1,3 +1,8 @@
 title: "Sections"
 description: |
   Here are all the available section patterns for the 2020 grad show website.
+
+patterns:
+  gradient-section:
+    title: "Gradient Section"
+    description: |

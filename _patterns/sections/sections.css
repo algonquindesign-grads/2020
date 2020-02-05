@@ -1,0 +1,7 @@
+.dot {
+  color: var(--color-light);
+}
+
+.gradient-section {
+  background-image: linear-gradient(to right, #EDF3D1, #D7F1F3);
+}
