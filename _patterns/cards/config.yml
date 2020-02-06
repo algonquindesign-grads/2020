@@ -6,4 +6,4 @@ patterns:
   teacher-card:
     title: "Teacher Card"
     description: |
-      Standard Card layout to showcase the respective prof and the subject they teach.
+      Standard Card layout to showcase the respective prof and their subject taught.
