@@ -1,5 +1,9 @@
 /* FILTER NAVIGATION */
 
+.full-nav {
+  padding: 1em;
+}
+
 .filter-nav {
   text-decoration: none;
   color: var(--color-primary);
