@@ -2,4 +2,21 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+  title: "2020 GD Grad Site"
+  description: |
+    The website for Algonquin College's 2020 Graphic Design graduating class.
   font_url: "https://use.typekit.net/ahq7wki.css"
+  colors:
+    accent: "--color-primary"
+    patterns:
+      brand.logos: "--color-primary"
+  rationales:
+    typefaces.primary: |
+      Neuzeit Grotesk was chosen for its simple yet elegant design.
+    typefaces.secondary: |
+      Lust was chosen for it's bold appearance.
+    colors.primary: |
+      Having black as the primary colours keeps a clean feel and gives a good base to add in the accent colours.
+  layouts:
+    default: |
+      This is the layout to be used on all pages.
