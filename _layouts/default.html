@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>{{page.sitetitle}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="/css/main.css" rel="stylesheet">
+  <link href="https://use.typekit.net/ahq7wki.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" href="favicon-196.png">
+  <meta name="description" content="{{page.metadescription}}">
+  <meta name="ICBM" content="45.41117,-75.69812">
+  <meta name="geo.position" content="45.41117,-75.69812">
+  <meta name="geo.region" content="ca-on">
+  <meta name="geo.placename" content="Ottawa">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{page.metatitle}}">
+  <meta property="og:url" content="{{page.metaurl}}">
+  <meta property="og:image" content="https://2020.grads.algonquindesign.ca/images/{{page.metaimg}}">
+  <meta property="og:site_name" content="2020 Algonquin Graphic Design Grad">
+  <meta property="og:description" content="{{page.metadescription}}">
+  <meta property="og:locale" content="en_CA">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@algonquindesign">
+</head>
+<body>
+
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+
+    {% pattern header/header %}
+  <main role="main" id="main" tabindex="-1">
+    {{content}}
+  </main>
+  {% pattern footer/footer %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "2020 Algonquin Graphic Design Grad",
+      "author": {
+        "@type": "School",
+        "@id": "#algonquincollege"
+      },
+      "description": "The 2020 Algonquin College Graphic Design Graduation Website",
+      "image": "https://aaronsander.ca/imahttp://2020.grads.algonquindesign.ca/https://aaronsander.ca/#work",
+      "keywords": "Web, Responsive, CSS, Mobile, Graduation, Graphic Design, Algonquin College"
+    }
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "School",
+      "@id": "#algonquincollege",
+      "name": "Algonquin College",
+      "email": "thomasjbradley@algonquinlive.com",
+      "url": "http://2020.grads.algonquindesign.ca/"
+    }
+  </script>
+</body>
+</html>
