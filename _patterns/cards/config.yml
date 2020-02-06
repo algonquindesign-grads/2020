@@ -1,3 +1,9 @@
 title: "Cards"
 description: |
   Here are all the available card patterns for the 2020 grad show website.
+
+patterns:
+  teacher-card:
+    title: "Teacher Card"
+    description: |
+      Standard Card layout to showcase the respective prof and their subject taught.
