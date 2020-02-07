@@ -1,6 +1,8 @@
 permalink: pretty
 theme: jekyll_patternbot
 
+imgurl: https://grads.images.algonquindesign.ca/2020
+
 patternbot:
   title: "2020 GD Grad Site"
   description: |
