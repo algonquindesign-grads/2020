@@ -1,4 +1,4 @@
-/* TEACHER CARDS */
+/* TEACHER CARD */
 img {
   max-width: 250px;
 }
@@ -21,3 +21,24 @@ img {
   border-image: linear-gradient(145deg, rgba(54,209,220,1) 5%, rgba(171,230,0,1) 100%);
   border-image-slice: 1;
 } */
+
+/* GRAD CARD */
+
+.grad-card {
+  text-decoration: none;
+  border: 1px solid #e2e2e2;
+  transition: all .3s ease;
+}
+
+.grad-card > .grad-img > img {
+  transition: all .3s ease;
+}
+
+.grad-card > .grad-cont > .grad-icon {
+  border-left: 2px solid var(--color-neutral);
+  padding-left: .5rem;
+}
+
+.grad-card:hover > .grad-img > img {
+  transform: scale(1.2);
+}
