@@ -27,10 +27,16 @@ img {
 .grad-card {
   text-decoration: none;
   border: 1px solid #e2e2e2;
-  transition: all .3s ease;
+  border-radius: 2px;
 }
 
-.grad-card > .grad-img > img {
+.grad-card:focus {
+  outline-color: var(--color-light);
+}
+
+.grad-card > .grad-img > img,
+.desat > .grad-img > img,
+.desat {
   transition: all .3s ease;
 }
 
@@ -39,6 +45,22 @@ img {
   padding-left: .5rem;
 }
 
-.grad-card:hover > .grad-img > img {
+.grad-card:hover > .grad-img > img,
+.grad-card:focus > .grad-img > img {
   transform: scale(1.2);
+}
+
+.grad-card:hover > .grad-cont h4,
+.grad-card:focus > .grad-cont h4 {
+  background: linear-gradient(145deg, rgba(54,209,220,1) 5%, rgba(171,230,0,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.desat {
+  filter: grayscale(1);
+}
+
+.desat > .grad-img > img {
+  filter: blur(2px);
 }
