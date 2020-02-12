@@ -14,6 +14,23 @@
   text-align: center;
 }
 
+/* GRADUATES SECTION CSS */
+
+.filter-bar li a {
+  text-decoration: none;
+  border: 3px solid #000;
+  color: #000;
+  transition: all .1s linear;
+}
+
+.filter-bar li a:hover,
+.filter-bar li a:focus,
+.filter-bar .active {
+  border-color: transparent;
+  border-bottom-color: #000;
+  border-radius: 4px
+}
+
 @media only screen and (min-width: 38em) {
   .grad-show-left {
     text-align: right;

@@ -7,3 +7,9 @@ patterns:
     title: "Teacher Card"
     description: |
       Standard Card layout to showcase the respective prof and their subject taught.
+    width: 10em
+  grad-card:
+    title: "Graduates Card"
+    description: |
+      The graduates card is used to link to the its respective graduates information page. It contains a first name, last name and headshot image of the graduate
+    padding: 1em
