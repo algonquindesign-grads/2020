@@ -7,7 +7,7 @@ grad_website: "jasminegraphicdesigner.ca"
 grad_email: "graphicdesigner.jasmine@gmail.com"
 about_me: |
   I am a maritimer living a city girl life. I harnessed my vibrant, quirky, and hardworking side into my designs. You’ll see me around with a Coca-Cola in hand, dreaming about travel.
-grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/tanguay-jasmine-portfolio1.jpg"
+grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/tanguay-jasmine-portfolio1.mp4"
 grad_portfolio2: "{{site.imgurl}}/designers/portfolio-pieces/tanguay-jasmine-portfolio2.jpg"
 grad_portfolio3: "{{site.imgurl}}/designers/portfolio-pieces/tanguay-jasmine-portfolio3.jpg"
 filters:
