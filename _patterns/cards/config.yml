@@ -12,5 +12,4 @@ patterns:
     title: "Graduates Card"
     description: |
       The graduates card is used to link to the its respective graduates information page. It contains a first name, last name and headshot image of the graduate
-    width: 20em
     padding: 1em

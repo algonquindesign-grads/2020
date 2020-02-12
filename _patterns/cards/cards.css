@@ -28,6 +28,7 @@ img {
   text-decoration: none;
   border: 1px solid #e2e2e2;
   border-radius: 2px;
+  background-color: var(--color-white);
 }
 
 .grad-card:focus {
@@ -43,7 +44,7 @@ img {
 
 .grad-card > .grad-cont > .grad-icon {
   border-left: 2px solid var(--color-neutral);
-  padding-left: .5rem;
+  padding-left: .4rem;
 }
 
 .grad-card:hover > .grad-img > img,
