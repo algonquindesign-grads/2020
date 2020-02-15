@@ -89,6 +89,10 @@
 
 /* FILTER NAVIGATION */
 
+.filter-nav div > hr {
+  width: 100%;
+}
+
 .filter-bar li label {
   text-decoration: none;
   border: 3px solid #000;
@@ -190,6 +194,20 @@
   .main-nav .active {
     background-color: transparent;
     color: var(--color-primary);
+  }
+
+  /* FILTER NAVIGATION – CONTINUED */
+
+  .filter-nav div > hr {
+    width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .filter-nav div > hr {
+    width: 50%;
   }
 
 }
