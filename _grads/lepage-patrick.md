@@ -22,6 +22,6 @@ social_instagram: "https://www.instagram.com/thegunnarman/"
 meta_sitetitle: "Patrick Lepage · Graphic Designer"
 meta_description: "Patrick Lepage's about page"
 meta_title: "Patrick Lepage · Graphic Designer"
-meta_url: "patrick-lepage"
+meta_url: "lepage-patrick"
 meta_img: "/designers/grad-headshots/headshot-lepage-patrick.jpg"
 ---

@@ -22,6 +22,6 @@ social_behance: "https://www.behance.net/miriampion"
 meta_sitetitle: "Miriam Pion · Graphic Designer"
 meta_description: "Miriam Pion's about page"
 meta_title: "Miriam Pion · Graphic Designer"
-meta_url: "miriam-pion"
+meta_url: "pion-miriam"
 meta_img: "/designers/grad-headshots/headshot-pion-miriam.jpg"
 ---

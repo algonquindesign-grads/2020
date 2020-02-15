@@ -1,6 +1,6 @@
 ---
 layout: graduates
-first_name: "Jennifer"
+first_name: "Jenny"
 last_name: "Owens"
 grad_headshot: "/designers/grad-headshots/headshot-owens-jennifer.jpg"
 grad_website: "http://www.jennyowens.ca/"
@@ -21,6 +21,6 @@ social_vimeo: "https://vimeo.com/jennyowens"
 meta_sitetitle: "Jennifer Owens · Graphic Designer"
 meta_description: "Jennifer Owens's about page"
 meta_title: "Jennifer Owens · Graphic Designer"
-meta_url: "jennifer-owens"
+meta_url: "owens-jennifer"
 meta_img: "/designers/grad-headshots/headshot-owens-jennifer.jpg"
 ---

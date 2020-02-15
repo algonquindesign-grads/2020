@@ -22,6 +22,6 @@ social_linkedin: "https://www.linkedin.com/in/fatimakhandesigns"
 meta_sitetitle: "Fatima Khan · Graphic Designer"
 meta_description: "Fatima Khan's about page"
 meta_title: "Fatima Khan · Graphic Designer"
-meta_url: "fatima-khan"
+meta_url: "khan-fatima"
 meta_img: "/designers/grad-headshots/headshot-khan-fatima.jpg"
 ---

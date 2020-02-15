@@ -20,6 +20,6 @@ social_instagram: "https://www.instagram.com/funny.fauna/?hl=en"
 meta_sitetitle: "Genevieve Lepine · Graphic Designer"
 meta_description: "Genevieve Lepine's about page"
 meta_title: "Genevieve Lepine · Graphic Designer"
-meta_url: "genevieve-lepine"
+meta_url: "lepine-genevieve"
 meta_img: "/designers/grad-headshots/headshot-lepine-genevieve.jpg"
 ---

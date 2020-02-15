@@ -23,6 +23,6 @@ social_behance: "https://www.behance.net/hovskii"
 meta_sitetitle: "Annie Pandolfi · Graphic Designer"
 meta_description: "Annie Pandolfi's about page"
 meta_title: "Annie Pandolfi · Graphic Designer"
-meta_url: "annie-pandolfi"
+meta_url: "pandolfi-annie"
 meta_img: "/designers/grad-headshots/headshot-pandolfi-annie.jpg"
 ---

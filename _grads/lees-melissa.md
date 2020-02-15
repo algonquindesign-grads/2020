@@ -20,6 +20,6 @@ social_instagram: "https://instagram.com/mellees.design"
 meta_sitetitle: "Melissa Lees · Graphic Designer"
 meta_description: "Melissa Lees's about page"
 meta_title: "Melissa Lees · Graphic Designer"
-meta_url: "melissa-lees"
+meta_url: "lees-melissa"
 meta_img: "/designers/grad-headshots/headshot-lees-melissa.jpg"
 ---

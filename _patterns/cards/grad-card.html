@@ -1,23 +1,11 @@
-<a class="grad-card text-center ib island-1-2 {% for filter in include.data.filters %}{{filter}} {% endfor %}all" href="#" aria-label="{{include.data.first_name}} {{include.data.last_name}} • A link to my grad page.">
-  <div class="grad-img push-1-2 chop">
+<a class="grad-card text-center ib island-1-2 {% for filter in include.data.filters %}{{filter}} {% endfor %}all content-fill unit-content-distribute" href="#" aria-label="{{include.data.first_name}} {{include.data.last_name}} • A link to my grad page.">
+  <div class="grad-img push-1-2 chop relative">
     <img class="img-flex" src="{{site.imgurl}}{{include.data.grad_headshot}}" alt="{{include.data.first_name}} {{include.data.last_name}} grad headshot" aria-label="Headshot of {{include.data.first_name}} {{include.data.last_name}} • Algonquin College 2020 Graphic Design student.">
   </div>
-  <div class="grad-cont text-left relative">
+  <div class="grad-cont text-left relative content-fill">
     <h4 class="push-0 normal">
       <span class="block mega">{{include.data.first_name}}</span>
       <span class="block kilo">{{include.data.last_name}}</span>
     </h4>
-    <!-- <div class="grad-icon pin-br">
-      <i class="icon i-24">
-        <svg><use xlink:href="/images/icons.svg#face-icon" /></svg>
-      </i>
-    </div> -->
   </div>
 </a>
-<!--
-<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
-  <linearGradient id="ant-gradient" x2="1" y2="1">
-    <stop offset="0%" stop-color="#36d1dc" />
-    <stop offset="100%" stop-color="#abe600" />
-  </linearGradient>
-</svg> -->

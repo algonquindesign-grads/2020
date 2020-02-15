@@ -1,6 +1,6 @@
 ---
 layout: graduates
-first_name: "Alexandra"
+first_name: "Alex"
 last_name: "Healy"
 grad_headshot: "/designers/grad-headshots/headshot-healy-alexandra.jpg"
 grad_website: "alexhealy.ca"

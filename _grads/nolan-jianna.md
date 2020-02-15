@@ -23,6 +23,6 @@ social_instagram: "https://www.instagram.com/jianna.design/"
 meta_sitetitle: "Jianna Nolan · Graphic Designer"
 meta_description: "Jianna Nolan's about page"
 meta_title: "Jianna Nolan · Graphic Designer"
-meta_url: "jianna-nolan"
+meta_url: "nolan-jianna"
 meta_img: "/designers/grad-headshots/headshot-nolan-jianna.jpg"
 ---

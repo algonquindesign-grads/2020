@@ -20,6 +20,6 @@ social_linkedin: "https://ca.linkedin.com/in/jazmin-katz-32784318b"
 meta_sitetitle: "Jazmin Katz · Graphic Designer"
 meta_description: "Jazmin Katz's about page"
 meta_title: "Jazmin Katz · Graphic Designer"
-meta_url: "jazmin-katz"
+meta_url: "katz-jazmin"
 meta_img: "/designers/grad-headshots/headshot-katz-jazmin.jpg"
 ---

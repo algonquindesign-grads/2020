@@ -19,6 +19,6 @@ interests:
 meta_sitetitle: "Francesco Iaderosa · Graphic Designer"
 meta_description: "Francesco Iaderosa's about page"
 meta_title: "Francesco Iaderosa · Graphic Designer"
-meta_url: "francesco-iaderosa"
+meta_url: "iaderosa-francesco"
 meta_img: "/designers/grad-headshots/headshot-iaderosa-francesco.jpg"
 ---

@@ -1,6 +1,6 @@
 ---
 layout: graduates
-first_name: "Gabriella"
+first_name: "Gabby"
 last_name: "Cincoleon"
 grad_headshot: "/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
 grad_website: "gabbycincoleon.ca"

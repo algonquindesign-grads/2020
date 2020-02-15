@@ -1,6 +1,6 @@
 ---
 layout: graduates
-first_name: "Christopher"
+first_name: "Chris"
 last_name: "Libecap"
 grad_headshot: "/designers/grad-headshots/headshot-libecap-christopher.jpg"
 grad_website: "https://www.caplibecap.ca/"
@@ -22,6 +22,6 @@ social_instagram: "https://instagram.com/caplibecap"
 meta_sitetitle: "Christopher Libecap · Graphic Designer"
 meta_description: "Christopher Libecap's about page"
 meta_title: "Christopher Libecap · Graphic Designer"
-meta_url: "christopher-libecap"
+meta_url: "libecap-christopher"
 meta_img: "/designers/grad-headshots/headshot-libecap-christopher.jpg"
 ---

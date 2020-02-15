@@ -6,7 +6,7 @@
   <input type="radio" class="filter-btn" name="filters" id="print">
   <input type="radio" class="filter-btn" name="filters" id="uxui">
   <input type="radio" class="filter-btn" name="filters" id="web">
-  <div class="pad-t-2 pad-b-2 filter-nav">
+  <div class="pad-t-2 pad-b filter-nav">
     <div class="push-1-2">
       <h2 class="push-0 ib push-r">Designers.</h2>
       <hr class="ib w-1-2 valign-middle" role="decoration">
@@ -21,11 +21,11 @@
       <li class="gutter-1-4 push-1-2 web-btn "><label tabindex="0" for="web" class="block gutter-1-2 pad-t-1-4 pad-b-1-4">Web</label></li>
     </ul>
   </div>
-  <div class="grid grid middle gutter-1-2 text-center off">
+  <div class="grid grid-stretch gutter-1-2 text-center off">
     {% for grad in site.grads %}
-    <div class="unit xs-1 s-1-2 m-1-3 l-1-4 gutter-1-4 push grad-item">
-      {% pattern cards/grad-card data=grad number=forloop.index%}
-    </div>
+      <div class="unit xs-1 s-1-2 m-1-3 l-1-4 gutter-1-4 push grad-item unit-content-distribute">
+        {% pattern cards/grad-card data=grad number=forloop.index%}
+      </div>
     {% endfor %}
   </div>
 </section>

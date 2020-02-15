@@ -22,6 +22,6 @@ social_instagram: "https://www.instagram.com/canadiamaple/"
 meta_sitetitle: "Kayleigh Laniel · Graphic Designer"
 meta_description: "Kayleigh Laniel's about page"
 meta_title: "Kayleigh Laniel · Graphic Designer"
-meta_url: "kayleigh-laniel"
+meta_url: "laniel-kayleigh"
 meta_img: "/designers/grad-headshots/headshot-laniel-kayleigh.jpg"
 ---

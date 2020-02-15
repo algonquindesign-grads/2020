@@ -24,6 +24,6 @@ social_behance: "https://www.behance.net/kylepereira/"
 meta_sitetitle: "Kyle Pereira · Graphic Designer"
 meta_description: "Kyle Pereira's about page"
 meta_title: "Kyle Pereira · Graphic Designer"
-meta_url: "kyle-pereira"
+meta_url: "pereira-kyle"
 meta_img: "/designers/grad-headshots/headshot-pereira-kyle.jpg"
 ---

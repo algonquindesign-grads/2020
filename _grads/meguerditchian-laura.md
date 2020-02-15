@@ -23,6 +23,6 @@ social_instagram: "https://instagram.com/l.meg"
 meta_sitetitle: "Laura Meguerditchian · Graphic Designer"
 meta_description: "Laura Meguerditchian's about page"
 meta_title: "Laura Meguerditchian · Graphic Designer"
-meta_url: "laura-meguerditchian"
+meta_url: "meguerditchian-laura"
 meta_img: "/designers/grad-headshots/headshot-meguerditchian-laura.jpg"
 ---

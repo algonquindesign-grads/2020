@@ -1,5 +1,5 @@
 .dot {
-  color: var(--color-light);
+  color: var(--color-accent);
 }
 
 .gradient-section {
@@ -23,6 +23,10 @@
   transition: all .1s linear;
 }
 
+.filter-bar li label:focus {
+  outline-color: var(--color-light);
+}
+
 #all:checked ~ .filter-nav > .filter-bar > .all-btn label,
 #branding:checked ~ .filter-nav > .filter-bar > .branding-btn label,
 #illustration:checked ~ .filter-nav > .filter-bar > .illustration-btn label,
@@ -30,14 +34,17 @@
 #print:checked ~ .filter-nav > .filter-bar > .print-btn label,
 #uxui:checked ~ .filter-nav > .filter-bar > .uxui-btn label,
 #web:checked ~ .filter-nav > .filter-bar > .web-btn label,
-.filter-bar li > label:hover {
+.filter-bar li > label:hover,
+.filter-bar li label:focus {
   border-color: transparent;
   border-bottom-color: #000;
+  background-color: var(--color-white);
   border-radius: 4px
 }
 
 .off .grad-item a {
   filter: grayscale(1) blur(1px);
+  transition: all .3s linear;
 }
 
 #all:checked ~ .off .grad-item a,

@@ -1,6 +1,6 @@
 ---
 layout: graduates
-first_name: "Madelaine"
+first_name: "Maddie"
 last_name: "Migrino"
 grad_headshot: "/designers/grad-headshots/headshot-migrino-madelaine.jpg"
 grad_website: "https://maddie-migrino.ca/"
@@ -21,6 +21,6 @@ social_youtube: "https://www.youtube.com/channel/UCo9uWYKgU5O73NS2jctAfpw/featur
 meta_sitetitle: "Madelaine Migrino · Graphic Designer"
 meta_description: "Madelaine Migrino's about page"
 meta_title: "Madelaine Migrino · Graphic Designer"
-meta_url: "madelaine-migrino"
+meta_url: "migrino-madelaine"
 meta_img: "/designers/grad-headshots/headshot-migrino-madelaine.jpg"
 ---
