@@ -2,14 +2,14 @@
 layout: graduates
 first_name: "Forrester"
 last_name: "Dunbrook"
-grad_headshot: "{{site.imgurl}}/designers/grad-headshots/headshot-dunbrook-forrester.jpg"
+grad_headshot: "/designers/grad-headshots/headshot-dunbrook-forrester.jpg"
 grad_website: "forresterdunbrook.com"
 grad_email: "forrester.dunbrook@gmail.com"
 about_me: |
   Man. Few. Words.
-grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/dunbrook-forrester-portfolio1.mp4"
-grad_portfolio2: "{{site.imgurl}}/designers/portfolio-pieces/dunbrook-forrester-portfolio2.jpg"
-grad_portfolio3: "{{site.imgurl}}/designers/portfolio-pieces/dunbrook-forrester-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/dunbrook-forrester-portfolio1.mp4"
+grad_portfolio2: "/designers/portfolio-pieces/dunbrook-forrester-portfolio2.jpg"
+grad_portfolio3: "/designers/portfolio-pieces/dunbrook-forrester-portfolio3.jpg"
 filters:
   - "illustration"
   - "motion"
@@ -23,5 +23,5 @@ meta_sitetitle: "Forrester Dunbrook · Graphic Designer"
 meta_description: "Forrester Dunbrook's about page"
 meta_title: "Forrester Dunbrook · Graphic Designer"
 meta_url: "dunbrook-forrester"
-meta_img: "{{site.imgurl}}/designers/grad-headshots/headshot-dunbrook-forrester.jpg"
+meta_img: "/designers/grad-headshots/headshot-dunbrook-forrester.jpg"
 ---

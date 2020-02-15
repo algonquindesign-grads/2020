@@ -22,3 +22,6 @@ patternbot:
   layouts:
     default: |
       This is the layout to be used on all pages.
+collections:
+  grads:
+    output: true

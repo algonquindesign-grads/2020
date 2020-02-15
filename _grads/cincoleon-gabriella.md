@@ -2,14 +2,14 @@
 layout: graduates
 first_name: "Gabriella"
 last_name: "Cincoleon"
-grad_headshot: "{{site.imgurl}}/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
+grad_headshot: "/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
 grad_website: "gabbycincoleon.ca"
 grad_email: "g.cincoleon@gmail.com"
 about_me: |
   I love building brands, tangible products and making illustrations move. I’m a soft-spoken girl who also strives to make the right voice in every project reach its target audience.
-grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/cincoleon-gabriella-portfolio1.jpg"
-grad_portfolio2: "{{site.imgurl}}/designers/portfolio-pieces/cincoleon-gabriella-portfolio2.jpg"
-grad_portfolio3: "{{site.imgurl}}/designers/portfolio-pieces/cincoleon-gabriella-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio1.jpg"
+grad_portfolio2: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio2.jpg"
+grad_portfolio3: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio3.jpg"
 filters:
   - "branding"
   - "illustration"
@@ -24,5 +24,5 @@ meta_sitetitle: "Gabriella Cincoleon · Graphic Designer"
 meta_description: "Gabriella Cincoleon's about page"
 meta_title: "Gabriella Cincoleon · Graphic Designer"
 meta_url: "cincoleon-gabriella"
-meta_img: "{{site.imgurl}}/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
+meta_img: "/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
 ---

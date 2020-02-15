@@ -43,6 +43,7 @@ img {
 }
 
 .grad-card > .grad-cont > .grad-icon {
+  color: var(--color-primary);
   border-left: 2px solid var(--color-neutral);
   padding-left: .4rem;
 }
@@ -59,14 +60,6 @@ img {
   -webkit-text-fill-color: transparent;
 }
 
-.desat {
-  filter: grayscale(1);
-}
-
-.desat > .grad-cont > h4 {
-  opacity: .2;
-}
-
-.desat > .grad-img > img {
-  filter: blur(2px);
+.grad-card:hover > .grad-cont > .grad-icon svg {
+  fill: url(#ant-gradient);
 }
