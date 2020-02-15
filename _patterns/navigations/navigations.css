@@ -1,21 +1,3 @@
-/* FILTER NAVIGATION */
-
-.full-nav {
-  padding: 1em;
-}
-
-.filter-nav {
-  text-decoration: none;
-  color: var(--color-primary);
-  border: solid 2px #000;
-  display: block;
-}
-
-.filter-nav:hover {
-  border: none;
-  border-bottom: solid 2px #000;
-}
-
 /* LOGO NAVIGATION */
 
 .logo-nav > .wordmark {
@@ -53,6 +35,14 @@
   left: -20em;
 }
 
+.main-check + .ham-nav > .ham-close {
+  display: none;
+}
+
+.ham-nav:hover svg {
+  fill: url(#ant-gradient);
+}
+
 .main-nav li {
   text-align: center;
 }
@@ -74,6 +64,14 @@
   height: 69px;
 }
 
+.main-check:checked + .ham-nav > .ham-open {
+  display: none;
+}
+
+.main-check:checked + .ham-nav > .ham-close {
+  display: block;
+}
+
 .main-check ~ label:focus {
   outline-color: var(--color-accent);
 }
@@ -87,6 +85,54 @@
 
 .ad-nav li a:hover {
   text-decoration: underline;
+}
+
+/* SOCIAL NAVIGATION HOVER STATES */
+
+.social-nav a svg {
+  fill: var(--color-primary);
+}
+
+.social-nav a .facebook > svg:last-child,
+.social-nav a .twitter > svg:last-child,
+.social-nav a .instagram > svg:last-child,
+.social-nav a .linkedin > svg:last-child,
+.social-nav a .youtube > svg:last-child,
+.social-nav a .vimeo > svg:last-child,
+.social-nav a .behance > svg:last-child,
+.social-nav a .adobeportfolio > svg:last-child,
+.social-nav a .github > svg:last-child,
+.social-nav a .email > svg:last-child,
+.social-nav a .website > svg:last-child {
+  display: none;
+}
+
+.social-nav a:hover .facebook > svg:first-child,
+.social-nav a:hover .twitter > svg:first-child,
+.social-nav a:hover .instagram > svg:first-child,
+.social-nav a:hover .linkedin > svg:first-child,
+.social-nav a:hover .youtube > svg:first-child,
+.social-nav a:hover .vimeo > svg:first-child,
+.social-nav a:hover .behance > svg:first-child,
+.social-nav a:hover .adobeportfolio > svg:first-child,
+.social-nav a:hover .github > svg:first-child,
+.social-nav a:hover .email > svg:first-child,
+.social-nav a:hover .website > svg:first-child {
+  display: none;
+}
+
+.social-nav a:hover .facebook > svg:last-child,
+.social-nav a:hover .twitter > svg:last-child,
+.social-nav a:hover .instagram > svg:last-child,
+.social-nav a:hover .linkedin > svg:last-child,
+.social-nav a:hover .youtube > svg:last-child,
+.social-nav a:hover .vimeo > svg:last-child,
+.social-nav a:hover .behance > svg:last-child,
+.social-nav a:hover .adobeportfolio > svg:last-child,
+.social-nav a:hover .github > svg:last-child,
+.social-nav a:hover .email > svg:last-child,
+.social-nav a:hover .website > svg:last-child {
+  display: block;
 }
 
 @media only screen and (min-width: 38em) {

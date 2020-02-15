@@ -1,6 +1,16 @@
 <input type="checkbox" id="main-nav" class="main-check">
-<label class="pin-tr gutter" for="main-nav" tabindex="0">
-  <i class="icon i-48">
-    <img class="img-flex" src="/images/branding/other/ham-icon.svg" alt="hamburger icon">
+<label class="pin-tr ham-nav" for="main-nav" tabindex="0">
+  <i class="icon i-48 ham-open">
+    <svg><use xlink:href="/images/icons.svg#hamburger-icon"></use></svg>
+  </i>
+  <i class="icon i-48 ham-close">
+    <svg><use xlink:href="/images/icons.svg#close-icon"></use></svg>
   </i>
 </label>
+
+<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
+  <linearGradient id="ant-gradient" x2="1" y2="1">
+    <stop offset="0%" stop-color="#36d1dc" />
+    <stop offset="100%" stop-color="#abe600" />
+  </linearGradient>
+</svg>

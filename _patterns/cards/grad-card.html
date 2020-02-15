@@ -1,16 +1,11 @@
-<a class="grad-card text-center ib island-1-2 all" href="#" aria-label=" • A link to my grad webpage.">
-  <div class="grad-img push-1-2 chop">
-    <img class="img-flex" src="https://via.placeholder.com/600" alt=" grad headshot" aria-label="Headshot of • Algonquin College 2020 Graphic Design student.">
+<a class="grad-card text-center ib island-1-2 {% for filter in include.data.filters %}{{filter}} {% endfor %}all content-fill unit-content-distribute" href="#" aria-label="{{include.data.first_name}} {{include.data.last_name}} • A link to my grad page.">
+  <div class="grad-img push-1-2 chop relative">
+    <img class="img-flex" src="{{site.imgurl}}{{include.data.grad_headshot}}" alt="{{include.data.first_name}} {{include.data.last_name}} grad headshot" aria-label="Headshot of {{include.data.first_name}} {{include.data.last_name}} • Algonquin College 2020 Graphic Design student.">
   </div>
-  <div class="grad-cont text-left relative">
+  <div class="grad-cont text-left relative content-fill">
     <h4 class="push-0 normal">
-      <span class="block mega">First Name</span>
-      <span class="block kilo">Longer Last Name.</span>
+      <span class="block mega">{{include.data.first_name}}</span>
+      <span class="block kilo">{{include.data.last_name}}</span>
     </h4>
-    <div class="grad-icon pin-tr">
-      <i class="icon i-24">
-        <svg><use xlink:href="{{site.imgurl}}/icons.svg#twitter-icon" /></svg>
-      </i>
-    </div>
   </div>
 </a>

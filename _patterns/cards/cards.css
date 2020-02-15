@@ -1,28 +1,4 @@
-/* TEACHER CARD */
-img {
-  max-width: 250px;
-}
-
-.text {
-  max-width: 250px;
-}
-
-.teacher-card {
-  border: solid 5px #000;
-  max-width: 250px;
-}
-
-/* .teacher-card:hover {
-  color: var(--color-white);
-
-  background: linear-gradient(145deg, rgba(54,209,220,1) 5%, rgba(171,230,0,1) 100%);
-  box-shadow: 3px 3px 3px #eee7e7;
-  border-bottom: solid 3px;
-  border-image: linear-gradient(145deg, rgba(54,209,220,1) 5%, rgba(171,230,0,1) 100%);
-  border-image-slice: 1;
-} */
-
-/* GRAD CARD */
+/* GRAD/TEACHER CARD */
 
 .grad-card {
   text-decoration: none;
@@ -35,21 +11,17 @@ img {
   outline-color: var(--color-light);
 }
 
-.grad-card > .grad-img > img,
-.desat > .grad-cont > h4,
-.desat > .grad-img > img,
-.desat {
-  transition: all .3s ease;
+.grad-card > .grad-img {
+  background-color: var(--color-neutral);
 }
 
-.grad-card > .grad-cont > .grad-icon {
-  border-left: 2px solid var(--color-neutral);
-  padding-left: .4rem;
+.grad-card > .grad-img > img {
+  transition: all .3s ease;
 }
 
 .grad-card:hover > .grad-img > img,
 .grad-card:focus > .grad-img > img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .grad-card:hover > .grad-cont h4,
@@ -57,16 +29,4 @@ img {
   background: linear-gradient(145deg, rgba(54,209,220,1) 5%, rgba(171,230,0,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-.desat {
-  filter: grayscale(1);
-}
-
-.desat > .grad-cont > h4 {
-  opacity: .2;
-}
-
-.desat > .grad-img > img {
-  filter: blur(2px);
 }

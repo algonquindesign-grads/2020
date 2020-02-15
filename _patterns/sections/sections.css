@@ -1,5 +1,5 @@
 .dot {
-  color: var(--color-light);
+  color: var(--color-accent);
 }
 
 .gradient-section {
@@ -16,19 +16,45 @@
 
 /* GRADUATES SECTION CSS */
 
-.filter-bar li a {
+.filter-bar li label {
   text-decoration: none;
   border: 3px solid #000;
   color: #000;
   transition: all .1s linear;
 }
 
-.filter-bar li a:hover,
-.filter-bar li a:focus,
-.filter-bar .active {
+.filter-bar li label:focus {
+  outline-color: var(--color-light);
+}
+
+#all:checked ~ .filter-nav > .filter-bar > .all-btn label,
+#branding:checked ~ .filter-nav > .filter-bar > .branding-btn label,
+#illustration:checked ~ .filter-nav > .filter-bar > .illustration-btn label,
+#motion:checked ~ .filter-nav > .filter-bar > .motion-btn label,
+#print:checked ~ .filter-nav > .filter-bar > .print-btn label,
+#uxui:checked ~ .filter-nav > .filter-bar > .uxui-btn label,
+#web:checked ~ .filter-nav > .filter-bar > .web-btn label,
+.filter-bar li > label:hover,
+.filter-bar li label:focus {
   border-color: transparent;
   border-bottom-color: #000;
+  background-color: var(--color-white);
   border-radius: 4px
+}
+
+.off .grad-item a {
+  filter: grayscale(1) blur(1px);
+  transition: all .3s linear;
+}
+
+#all:checked ~ .off .grad-item a,
+#branding:checked ~ .off .grad-item .branding,
+#illustration:checked ~ .off .grad-item .illustration,
+#motion:checked ~ .off .grad-item .motion,
+#print:checked ~ .off .grad-item .print,
+#uxui:checked ~ .off .grad-item .uxui,
+#web:checked ~ .off .grad-item .web {
+  filter: grayscale(0) blur(0px);
 }
 
 @media only screen and (min-width: 38em) {
