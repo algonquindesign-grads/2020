@@ -2,14 +2,14 @@
 layout: graduates
 first_name: "Aaron"
 last_name: "Sander"
-grad_headshot: "{{site.imgurl}}/designers/grad-headshots/headshot-sander-aaron.jpg"
+grad_headshot: "/designers/grad-headshots/headshot-sander-aaron.jpg"
 grad_website: "http://aaronsander.ca/"
 grad_email: "hey@aaronsander.ca"
 about_me: |
   I want to learn and be challenged. I love exploring and experiencing new things that open my eyes to newer, greater ways of thinking. I’ve always been interested in how websites are built and run.
-grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/sander-aaron-portfolio1.jpg"
-grad_portfolio2: "{{site.imgurl}}/designers/portfolio-pieces/sander-aaron-portfolio2.jpg"
-grad_portfolio3: "{{site.imgurl}}/designers/portfolio-pieces/sander-aaron-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/sander-aaron-portfolio1.jpg"
+grad_portfolio2: "/designers/portfolio-pieces/sander-aaron-portfolio2.jpg"
+grad_portfolio3: "/designers/portfolio-pieces/sander-aaron-portfolio3.jpg"
 filters:
   - "uxui"
   - "web"
@@ -23,5 +23,5 @@ meta_sitetitle: "Aaron Sander · Graphic Designer"
 meta_description: "Aaron Sander's about page"
 meta_title: "Aaron Sander · Graphic Designer"
 meta_url: "aaron-sander"
-meta_img: "{{site.imgurl}}/designers/grad-headshots/headshot-sander-aaron.jpg"
+meta_img: "/designers/grad-headshots/headshot-sander-aaron.jpg"
 ---
