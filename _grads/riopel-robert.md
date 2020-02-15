@@ -7,7 +7,7 @@ grad_website: "http://robertriopel.ca/"
 grad_email: "robert.riopel18@hotmail.com"
 about_me: |
   Graphic Artist from Toronto with a passion for painting and music.
-grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/riopel-robert-portfolio1.jpg"
+grad_portfolio1: "{{site.imgurl}}/designers/portfolio-pieces/riopel-robert-portfolio1.mp4"
 grad_portfolio2: "{{site.imgurl}}/designers/portfolio-pieces/riopel-robert-portfolio2.jpg"
 grad_portfolio3: "{{site.imgurl}}/designers/portfolio-pieces/riopel-robert-portfolio3.jpg"
 filters:
