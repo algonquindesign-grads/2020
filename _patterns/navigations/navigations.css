@@ -87,6 +87,19 @@
   text-decoration: underline;
 }
 
+/* FILTER NAVIGATION */
+
+.filter-bar li label {
+  text-decoration: none;
+  border: 3px solid #000;
+  color: #000;
+  transition: all .1s linear;
+}
+
+.filter-bar li label:focus {
+  outline-color: var(--color-light);
+}
+
 /* SOCIAL NAVIGATION HOVER STATES */
 
 .social-nav a svg {

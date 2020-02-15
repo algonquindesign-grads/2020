@@ -4,5 +4,14 @@ description: |
 
 patterns:
   gradient-section:
-    title: "Gradient Section"
+    title: "Background Section"
     description: |
+      The background section contains background info on our graduating brand 'Anthology' and link to the graduates page. Should be used on the homepage.
+  graduates-section:
+    title: "Gradutates Section"
+    description: |
+      The graduates section contains the list of all the 2020 Algonquin College graphic design graduates.
+  grad-show-info:
+    title: "Information Section"
+    description: |
+      The information section contains the neccessary info on the 2020 AC Grad Show.

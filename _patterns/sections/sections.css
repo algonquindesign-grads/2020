@@ -16,17 +16,6 @@
 
 /* GRADUATES SECTION CSS */
 
-.filter-bar li label {
-  text-decoration: none;
-  border: 3px solid #000;
-  color: #000;
-  transition: all .1s linear;
-}
-
-.filter-bar li label:focus {
-  outline-color: var(--color-light);
-}
-
 #all:checked ~ .filter-nav > .filter-bar > .all-btn label,
 #branding:checked ~ .filter-nav > .filter-bar > .branding-btn label,
 #illustration:checked ~ .filter-nav > .filter-bar > .illustration-btn label,
