@@ -7,15 +7,15 @@ grad_website: "https://www.caplibecap.ca/"
 grad_email: "hello@caplibecap.ca"
 about_me: |
   I live to dance. But only under the perfect conditions (TBD).
-grad_portfolio1: "/designers/portfolio-pieces/libecap-christopher-portfolio1.jpg"
+grad_video1: "/designers/portfolio-pieces/libecap-christopher-portfolio1.mp4"
 grad_portfolio2: "/designers/portfolio-pieces/libecap-christopher-portfolio2.jpg"
 grad_portfolio3: "/designers/portfolio-pieces/libecap-christopher-portfolio3.jpg"
 filters:
   - "motion"
   - "print"
 interests:
-  - "3D"
-  - "Motion"
+  - "3D • "
+  - "Motion • "
   - "Print"
 social_linkedin: "https://linkedin.com/in/christopher-libecap-48233a189"
 social_instagram: "https://instagram.com/caplibecap"

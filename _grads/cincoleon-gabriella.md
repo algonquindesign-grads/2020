@@ -3,20 +3,20 @@ layout: graduates
 first_name: "Gabby"
 last_name: "Cincoleon"
 grad_headshot: "/designers/grad-headshots/headshot-cincoleon-gabriella.jpg"
-grad_website: "gabbycincoleon.ca"
+grad_website: "https://gabbycincoleon.ca"
 grad_email: "g.cincoleon@gmail.com"
 about_me: |
   I love building brands, tangible products and making illustrations move. I’m a soft-spoken girl who also strives to make the right voice in every project reach its target audience.
-grad_portfolio1: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio1.jpg"
-grad_portfolio2: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio2.jpg"
-grad_portfolio3: "/designers/portfolio-pieces/cincoleon-gabriella-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/cincoleon-gabby-portfolio1.jpg"
+grad_portfolio2: "/designers/portfolio-pieces/cincoleon-gabby-portfolio2.jpg"
+grad_portfolio3: "/designers/portfolio-pieces/cincoleon-gabby-portfolio3.jpg"
 filters:
   - "branding"
   - "illustration"
   - "motion"
 interests:
-  - "Branding"
-  - "Illustration"
+  - "Branding • "
+  - "Illustration • "
   - "Motion"
 social_instagram: "https://www.instagram.com/gabbycinco.design/"
 social_vimeo: "https://vimeo.com/user73480943"

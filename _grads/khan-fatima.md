@@ -15,8 +15,8 @@ filters:
   - "illustration"
   - "print"
 interests:
-  - "Branding"
-  - "Illustration"
+  - "Branding • "
+  - "Illustration • "
   - "Print"
 social_linkedin: "https://www.linkedin.com/in/fatimakhandesigns"
 meta_sitetitle: "Fatima Khan · Graphic Designer"

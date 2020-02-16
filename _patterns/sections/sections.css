@@ -16,17 +16,6 @@
 
 /* GRADUATES SECTION CSS */
 
-.filter-bar li label {
-  text-decoration: none;
-  border: 3px solid #000;
-  color: #000;
-  transition: all .1s linear;
-}
-
-.filter-bar li label:focus {
-  outline-color: var(--color-light);
-}
-
 #all:checked ~ .filter-nav > .filter-bar > .all-btn label,
 #branding:checked ~ .filter-nav > .filter-bar > .branding-btn label,
 #illustration:checked ~ .filter-nav > .filter-bar > .illustration-btn label,
@@ -43,7 +32,8 @@
 }
 
 .off .grad-item a {
-  filter: grayscale(1) blur(1px);
+  filter: grayscale(1) blur(1.5px);
+  opacity: .6;
   transition: all .3s linear;
 }
 
@@ -55,6 +45,14 @@
 #uxui:checked ~ .off .grad-item .uxui,
 #web:checked ~ .off .grad-item .web {
   filter: grayscale(0) blur(0px);
+  opacity: 1;
+}
+
+/* GRADUATE DETAILS */
+
+.grad-sect > .grad-cont .interests {
+  color: var(--color-neutral);
+ font-family: var(--font-primary);
 }
 
 @media only screen and (min-width: 38em) {

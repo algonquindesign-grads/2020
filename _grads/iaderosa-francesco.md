@@ -14,7 +14,7 @@ filters:
   - "branding"
   - "illustration"
 interests:
-  - "Branding"
+  - "Branding • "
   - "Illustration"
 meta_sitetitle: "Francesco Iaderosa · Graphic Designer"
 meta_description: "Francesco Iaderosa's about page"

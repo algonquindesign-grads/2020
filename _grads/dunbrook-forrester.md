@@ -3,11 +3,11 @@ layout: graduates
 first_name: "Forrester"
 last_name: "Dunbrook"
 grad_headshot: "/designers/grad-headshots/headshot-dunbrook-forrester.jpg"
-grad_website: "forresterdunbrook.com"
+grad_website: "https://forresterdunbrook.com"
 grad_email: "forrester.dunbrook@gmail.com"
 about_me: |
   Man. Few. Words.
-grad_portfolio1: "/designers/portfolio-pieces/dunbrook-forrester-portfolio1.mp4"
+grad_video1: "/designers/portfolio-pieces/dunbrook-forrester-portfolio1.mp4"
 grad_portfolio2: "/designers/portfolio-pieces/dunbrook-forrester-portfolio2.jpg"
 grad_portfolio3: "/designers/portfolio-pieces/dunbrook-forrester-portfolio3.jpg"
 filters:
@@ -15,8 +15,8 @@ filters:
   - "motion"
   - "print"
 interests:
-  - "Motion"
-  - "Print"
+  - "Motion • "
+  - "Print • "
   - "Illustration"
 social_instagram: "https://www.instagram.com/forrester_dunbrook/"
 meta_sitetitle: "Forrester Dunbrook · Graphic Designer"

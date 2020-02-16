@@ -15,8 +15,8 @@ filters:
   - "motion"
   - "uxui"
 interests:
-  - "Illustration"
-  - "Motion"
+  - "Illustration • "
+  - "Motion • "
   - "UX/UI"
 social_instagram: "https://www.instagram.com/jako.ry/"
 meta_sitetitle: "Jack Huynh · Graphic Designer"

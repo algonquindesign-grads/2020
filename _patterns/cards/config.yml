@@ -8,14 +8,16 @@ patterns:
     description: |
       Standard Card layout to showcase the respective prof and their subject taught.
     padding: 1em
+    width: 20em
   grad-card:
     title: "Graduates Card"
     description: |
       The graduates card is used to link to the its respective graduates information page. It contains a first name, last name and headshot image of the graduate
     padding: 1em
+    width: 20em
     fields:
       - name: data
         type: object
         data:
-          source: "site.grads[1]"
+          source: "site.grads[0]"
           type: grad

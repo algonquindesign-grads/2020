@@ -14,8 +14,8 @@ filters:
   - "branding"
   - "uxui"
 interests:
-  - "Branding"
-  - "UX & UI"
+  - "Branding • "
+  - "UX/UI"
 social_instagram: "https://www.instagram.com/jmj.graphic/"
 meta_sitetitle: "Jean-Michael · Graphic Designer"
 meta_description: "Jean-Michael Jones's about page"

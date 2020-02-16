@@ -17,3 +17,30 @@ patterns:
     title: "Filter Navigation"
     description: |
       This navigation is used to filter designers based on their preferred design practice.
+    padding: 1em
+  ham-nav:
+    title: "Hamburger Navigation"
+    description: |
+      The hamerburger navigation is used to reduced the size of the main navigation links at smaller screens sizes.
+    padding: 1em
+  social-nav:
+    title: "Social Navigation"
+    description: |
+      The social navigation contains links to the official Algonquin Design social media pages.
+    padding: 1em
+  social-links:
+    title: "Social Links"
+    description: |
+      The social Links contains links to the relevant graduates social media pages.
+    padding: 1em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.grads[0]"
+          type: grads
+  additional-nav:
+    title: "Additional Navigations"
+    description: |
+      The additional navigation links contain other useful links for the footer.
+    padding: 1em

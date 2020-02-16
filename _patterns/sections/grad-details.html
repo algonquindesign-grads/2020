@@ -1,0 +1,13 @@
+<section class="grid grid-middle wrapper grad-sect gutter-1-4">
+  <div class="unit xs-1 s-1 m-1 l-1-2 push gutter-1-4">
+    <div class="grad-img embed embed-1by1">
+      <img class="img-flex embed-item" src="{{site.imgurl}}{{include.data.grad_headshot}}" alt="{{include.data.first_name}} {{include.data.last_name}} grad headshot" aria-label="Headshot of {{include.data.first_name}} {{include.data.last_name}} • Algonquin College 2020 Graphic Design student.">
+    </div>
+  </div>
+  <div class="grad-cont unit xs-1 s-1 m-1 l-1-2 gutter-1-4 pad-t-1-2 push">
+    <h2 class="name giga push-0">{{include.data.first_name}} {{include.data.last_name}}</h2>
+    <h3 class="interests milli push normal">{% for interests in include.data.interests %}{{interests}}{% endfor %}</h3>
+    <p class="about max-length-no-center push">{{include.data.about_me}}</p>
+    {% pattern navigations/social-links data=page %}
+  </div>
+</section>

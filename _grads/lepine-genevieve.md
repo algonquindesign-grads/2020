@@ -13,9 +13,9 @@ grad_portfolio3: "/designers/portfolio-pieces/lepine-genevieve-portfolio3.jpg"
 filters:
   - "branding"
 interests:
-  - "Branding"
+  - "Branding • "
   - "Packaging Design"
-social_linkedin: "https://www.linkedin.com/in/genevieve-lepine-9a21b511/"
+social_linkedin: "https://www.linkedin.com/in/genevieve-lepine-9a21b511"
 social_instagram: "https://www.instagram.com/funny.fauna/?hl=en"
 meta_sitetitle: "Genevieve Lepine · Graphic Designer"
 meta_description: "Genevieve Lepine's about page"

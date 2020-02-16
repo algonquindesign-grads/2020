@@ -15,9 +15,9 @@ filters:
   - "illustration"
   - "uxui"
 interests:
-  - "Branding"
-  - "Illustration"
-  - "UX & UI"
+  - "Branding • "
+  - "Illustration • "
+  - "UX/UI"
 social_linkedin: "https://www.linkedin.com/in/laura-meguerditchian-49925913b/"
 social_instagram: "https://instagram.com/l.meg"
 meta_sitetitle: "Laura Meguerditchian · Graphic Designer"

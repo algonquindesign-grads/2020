@@ -1,5 +1,9 @@
 /* LOGO NAVIGATION */
 
+.logo-nav:focus {
+  outline-color: var(--color-accent);
+}
+
 .logo-nav > .wordmark {
   display: none;
 
@@ -87,10 +91,28 @@
   text-decoration: underline;
 }
 
+/* FILTER NAVIGATION */
+
+.filter-nav div > hr {
+  width: 100%;
+}
+
+.filter-bar li label {
+  text-decoration: none;
+  border: 3px solid #000;
+  color: #000;
+  transition: all .1s linear;
+}
+
+.filter-bar li label:focus {
+  outline-color: var(--color-light);
+}
+
 /* SOCIAL NAVIGATION HOVER STATES */
 
-.social-nav a svg {
-  fill: var(--color-primary);
+.social-nav a {
+  outline-color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 .social-nav a .facebook > svg:last-child,
@@ -100,7 +122,7 @@
 .social-nav a .youtube > svg:last-child,
 .social-nav a .vimeo > svg:last-child,
 .social-nav a .behance > svg:last-child,
-.social-nav a .adobeportfolio > svg:last-child,
+.social-nav a .adobe-portfolio > svg:last-child,
 .social-nav a .github > svg:last-child,
 .social-nav a .email > svg:last-child,
 .social-nav a .website > svg:last-child {
@@ -114,7 +136,7 @@
 .social-nav a:hover .youtube > svg:first-child,
 .social-nav a:hover .vimeo > svg:first-child,
 .social-nav a:hover .behance > svg:first-child,
-.social-nav a:hover .adobeportfolio > svg:first-child,
+.social-nav a:hover .adobe-portfolio > svg:first-child,
 .social-nav a:hover .github > svg:first-child,
 .social-nav a:hover .email > svg:first-child,
 .social-nav a:hover .website > svg:first-child {
@@ -128,7 +150,7 @@
 .social-nav a:hover .youtube > svg:last-child,
 .social-nav a:hover .vimeo > svg:last-child,
 .social-nav a:hover .behance > svg:last-child,
-.social-nav a:hover .adobeportfolio > svg:last-child,
+.social-nav a:hover .adobe-portfolio > svg:last-child,
 .social-nav a:hover .github > svg:last-child,
 .social-nav a:hover .email > svg:last-child,
 .social-nav a:hover .website > svg:last-child {
@@ -143,7 +165,7 @@
     height: unset;
     background-color: transparent;
 
-    overflow: auto;
+    overflow: unset;
   }
 
   .logo-nav > .logo,
@@ -177,6 +199,21 @@
   .main-nav .active {
     background-color: transparent;
     color: var(--color-primary);
+    outline-color: var(--color-accent);
+  }
+
+  /* FILTER NAVIGATION – CONTINUED */
+
+  .filter-nav div > hr {
+    width: 40%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .filter-nav div > hr {
+    width: 50%;
   }
 
 }
