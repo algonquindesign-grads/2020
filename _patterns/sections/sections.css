@@ -3,7 +3,7 @@
 }
 
 .gradient-section {
-  background-image: linear-gradient(to right, #EDF3D1, #D7F1F3);
+  background-image: linear-gradient(to right, rgb(171,230,0,0.2), rgb(54,209,220,0.2));
 }
 
 .grad-show-right {
