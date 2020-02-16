@@ -7,9 +7,9 @@ grad_website: "https://maddie-migrino.ca/"
 grad_email: "laine2014.migrino@gmail.com"
 about_me: |
   Hey, I'm Maddie. I am a Graphic Designer heavily inspired by music. Check out my motion graphics and illustrations on my website, maddie-migrino.ca, or on YouTube (MADesigns).
-grad_portfolio1: "/designers/portfolio-pieces/migrino-maddie-portfolio1.jpg"
-grad_video2: "/designers/portfolio-pieces/migrino-maddie-portfolio2.mp4"
-grad_portfolio3: "/designers/portfolio-pieces/migrino-maddie-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/migrino-madelaine-portfolio1.jpg"
+grad_video2: "/designers/portfolio-pieces/migrino-madelaine-portfolio2.mp4"
+grad_portfolio3: "/designers/portfolio-pieces/migrino-madelaine-portfolio3.jpg"
 filters:
   - "illustration"
   - "motion"

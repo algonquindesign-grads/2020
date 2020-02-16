@@ -7,9 +7,9 @@ grad_website: "https://lolasundara.ca"
 grad_email: "lola.sundara@hotmail.com"
 about_me: |
   Hey, I'm Lola. I'm a freelance graphic designer with a background in general arts and advertising/marketing. If you're looking to disrupt the industry, contact me!
-grad_portfolio1: "/designers/portfolio-pieces/sundara-lola-portfolio1.jpg"
-grad_portfolio2: "/designers/portfolio-pieces/sundara-lola-portfolio2.jpg"
-grad_portfolio3: "/designers/portfolio-pieces/sundara-lola-portfolio3.jpg"
+grad_portfolio1: "/designers/portfolio-pieces/sundara-siriphanh-lola-portfolio1.jpg"
+grad_portfolio2: "/designers/portfolio-pieces/sundara-siriphanh-lola-portfolio2.jpg"
+grad_portfolio3: "/designers/portfolio-pieces/sundara-siriphanh-lola-portfolio3.jpg"
 filters:
   - "branding"
   - "illustration"
