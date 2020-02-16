@@ -6,3 +6,55 @@
 {% include_relative type.css %}
 {% include_relative theme.css %}
 {% pattern_css %}
+
+.watermark-section {
+  background-image: url("https://grads.images.algonquindesign.ca/2020/branding/logos/anthology-wordmark.svg");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  background-size: 120%;
+}
+
+.embed {
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+.embed-16by9 {
+  padding-top: 56.25%;
+}
+
+.embed-item {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .watermark-section {
+    background-size: 90%;
+    background-position: right bottom;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .watermark-section {
+    background-size: 70%;
+    background-position: right bottom;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .watermark-section {
+    background-size: contain;
+  }
+
+}
