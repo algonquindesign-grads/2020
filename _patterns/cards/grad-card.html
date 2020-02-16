@@ -1,4 +1,4 @@
-<a class="grad-card text-center ib island-1-2 {% for filter in include.data.filters %}{{filter}} {% endfor %}all content-fill unit-content-distribute" href="#" aria-label="{{include.data.first_name}} {{include.data.last_name}} • A link to my grad page.">
+<a class="grad-card text-center ib island-1-2 {% for filter in include.data.filters %}{{filter}} {% endfor %}all content-fill unit-content-distribute" href="{{include.data.url}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • A link to my grad page.">
   <div class="grad-img push-1-2 chop relative">
     <img class="img-flex" src="{{site.imgurl}}{{include.data.grad_headshot}}" alt="{{include.data.first_name}} {{include.data.last_name}} grad headshot" aria-label="Headshot of {{include.data.first_name}} {{include.data.last_name}} • Algonquin College 2020 Graphic Design student.">
   </div>
