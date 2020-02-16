@@ -6,7 +6,7 @@ grad_headshot: "/designers/grad-headshots/headshot-danochristos-patricia.jpg"
 grad_website: "https://pdano.ca"
 grad_email: "patricia.danochristos@gmail.com"
 about_me: |
-  Insert description here.
+  Writing a bio might actually be more uncomfortable than seeing Comic Sans being used on a billboard. Here’s to saving the world from bios and Comic Sans.
 grad_portfolio1: "/designers/portfolio-pieces/danochristos-patricia-portfolio1.jpg"
 grad_portfolio2: "/designers/portfolio-pieces/danochristos-patricia-portfolio2.jpg"
 grad_portfolio3: "/designers/portfolio-pieces/danochristos-patricia-portfolio3.jpg"
