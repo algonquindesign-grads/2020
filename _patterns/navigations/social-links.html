@@ -1,0 +1,121 @@
+<nav>
+  <ul class="social-nav list-group-inline">
+    <li>
+      <a class="block" href="{{include.data.social_website}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my portfolio website." target="_blank" rel="noopener noreferrer">
+          <i class="website icon i-48">
+            <svg><use xlink:href="/images/icons.svg#website-icon"></use></svg>
+            <svg><use xlink:href="/images/icons.svg#website-icon-hover"></use></svg>
+          </i>
+        <span class="icon-label visually-hidden">Portfolio Website</span>
+      </a>
+    </li>
+    <li class="push-r">
+      <a class="block" href="{{include.data.social_email}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • my email." target="_blank" rel="noopener noreferrer">
+          <i class="email icon i-48">
+            <svg><use xlink:href="/images/icons.svg#email-icon"></use></svg>
+            <svg><use xlink:href="/images/icons.svg#email-icon-hover"></use></svg>
+          </i>
+        <span class="icon-label visually-hidden">Email</span>
+      </a>
+    </li>
+    {% if include.data.social_facebook %}
+      <li>
+        <a class="block" href="{{include.data.social_facebook}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Facebook page." target="_blank" rel="noopener noreferrer">
+            <i class="facebook icon i-48">
+              <svg><use xlink:href="/images/icons.svg#facebook-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#facebook-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Facebook</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_twitter %}
+      <li>
+        <a class="block" href="{{include.data.social_twitter}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Twitter page." target="_blank" rel="noopener noreferrer">
+            <i class="twitter icon i-48">
+              <svg><use xlink:href="/images/icons.svg#twitter-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#twitter-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Twitter</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_instagram %}
+      <li>
+        <a class="block" href="{{include.data.social_instagram}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Instagram page." target="_blank" rel="noopener noreferrer">
+            <i class="instagram icon i-48">
+              <svg><use xlink:href="/images/icons.svg#instagram-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#instagram-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Instagram</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_linkedin %}
+      <li>
+        <a class="block" href="{{include.data.social_linkedin}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my LinkedIn page." target="_blank" rel="noopener noreferrer">
+            <i class="linkedin icon i-48">
+              <svg><use xlink:href="/images/icons.svg#linkedin-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#linkedin-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">LinkedIn</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_youtube %}
+      <li>
+        <a class="block" href="{{include.data.social_youtube}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Youtube page." target="_blank" rel="noopener noreferrer">
+            <i class="youtube icon i-48">
+              <svg><use xlink:href="/images/icons.svg#youtube-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#youtube-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Youtube</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_vimeo %}
+      <li>
+        <a class="block" href="{{include.data.social_vimeo}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Vimeo page." target="_blank" rel="noopener noreferrer">
+            <i class="vimeo icon i-48">
+              <svg><use xlink:href="/images/icons.svg#vimeo-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#vimeo-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Vimeo</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_behance %}
+      <li>
+        <a class="block" href="{{include.data.social_behance}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Behance page." target="_blank" rel="noopener noreferrer">
+            <i class="behance icon i-48">
+              <svg><use xlink:href="/images/icons.svg#behance-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#behance-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Behance</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_adobeportfolio %}
+      <li>
+        <a class="block" href="{{include.data.social_adobe-portfolio}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Adobe Portfolio page." target="_blank" rel="noopener noreferrer">
+            <i class="adobe-portfolio icon i-48">
+              <svg><use xlink:href="/images/icons.svg#adobe-portfolio-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#adobe-portfolio-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Adobe Portfolio</span>
+        </a>
+      </li>
+    {% endif %}
+    {% if include.data.social_github %}
+      <li>
+        <a class="block" href="{{include.data.social_github}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Github page." target="_blank" rel="noopener noreferrer">
+            <i class="github icon i-48">
+              <svg><use xlink:href="/images/icons.svg#github-icon"></use></svg>
+              <svg><use xlink:href="/images/icons.svg#github-icon-hover"></use></svg>
+            </i>
+          <span class="icon-label visually-hidden">Github</span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

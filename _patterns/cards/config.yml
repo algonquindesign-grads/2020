@@ -19,5 +19,5 @@ patterns:
       - name: data
         type: object
         data:
-          source: "site.grads[1]"
+          source: "site.grads[0]"
           type: grad

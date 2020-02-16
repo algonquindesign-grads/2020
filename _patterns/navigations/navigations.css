@@ -106,8 +106,9 @@
 
 /* SOCIAL NAVIGATION HOVER STATES */
 
-.social-nav a svg {
-  fill: var(--color-primary);
+.social-nav a {
+  outline-color: var(--color-accent);
+  color: var(--color-primary);
 }
 
 .social-nav a .facebook > svg:last-child,
@@ -117,7 +118,7 @@
 .social-nav a .youtube > svg:last-child,
 .social-nav a .vimeo > svg:last-child,
 .social-nav a .behance > svg:last-child,
-.social-nav a .adobeportfolio > svg:last-child,
+.social-nav a .adobe-portfolio > svg:last-child,
 .social-nav a .github > svg:last-child,
 .social-nav a .email > svg:last-child,
 .social-nav a .website > svg:last-child {
@@ -131,7 +132,7 @@
 .social-nav a:hover .youtube > svg:first-child,
 .social-nav a:hover .vimeo > svg:first-child,
 .social-nav a:hover .behance > svg:first-child,
-.social-nav a:hover .adobeportfolio > svg:first-child,
+.social-nav a:hover .adobe-portfolio > svg:first-child,
 .social-nav a:hover .github > svg:first-child,
 .social-nav a:hover .email > svg:first-child,
 .social-nav a:hover .website > svg:first-child {
@@ -145,7 +146,7 @@
 .social-nav a:hover .youtube > svg:last-child,
 .social-nav a:hover .vimeo > svg:last-child,
 .social-nav a:hover .behance > svg:last-child,
-.social-nav a:hover .adobeportfolio > svg:last-child,
+.social-nav a:hover .adobe-portfolio > svg:last-child,
 .social-nav a:hover .github > svg:last-child,
 .social-nav a:hover .email > svg:last-child,
 .social-nav a:hover .website > svg:last-child {
