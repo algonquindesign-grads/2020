@@ -15,8 +15,8 @@ filters:
   - "motion"
   - "print"
 interests:
-  - "Typography"
-  - "Motion"
+  - "Typography • "
+  - "Motion • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/qian-zhaocheng-a221b8158/"
 meta_sitetitle: "Qian ZhaoCheng· Graphic Designer"

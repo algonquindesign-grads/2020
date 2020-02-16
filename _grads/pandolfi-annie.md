@@ -9,13 +9,13 @@ about_me: |
   Hi, I'm Annie! A good day starts with 3+ coffees, my dog, and your problems. The more problems — the better. I thrive on understanding others and helping them put themselves out there with open arms.
 grad_portfolio1: "/designers/portfolio-pieces/pandolfi-annie-portfolio1.jpg"
 grad_portfolio2: "/designers/portfolio-pieces/pandolfi-annie-portfolio2.jpg"
-grad_portfolio3: "/designers/portfolio-pieces/pandolfi-annie-portfolio3.jpg"
+grad_video3: "/designers/portfolio-pieces/pandolfi-annie-portfolio3.mp4"
 filters:
   - "branding"
   - "illustration"
 interests:
-  - "Branding"
-  - "Packaging"
+  - "Branding • "
+  - "Packaging • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/hovski"
 social_instagram: "https://www.instagram.com/h0vski"

@@ -3,7 +3,7 @@ layout: graduates
 first_name: "Patricia"
 last_name: "Danochristos"
 grad_headshot: "/designers/grad-headshots/headshot-danochristos-patricia.jpg"
-grad_website: "pdano.ca"
+grad_website: "https://pdano.ca"
 grad_email: "patricia.danochristos@gmail.com"
 about_me: |
   Insert description here.
@@ -14,7 +14,7 @@ filters:
   - "print"
   - "web"
 interests:
-  - "Web Design"
+  - "Web Design • "
   - "Print"
 social_linkedin: "https://www.linkedin.com/in/pdano/"
 social_adobeport: "https://dano0015.myportfolio.com"

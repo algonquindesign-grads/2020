@@ -7,7 +7,7 @@ grad_website: "https://www.kylepereira.ca/"
 grad_email: "kylevp99@gmail.com"
 about_me: |
   Hey, I'm Kyle Pereira a Graphic Designer interested in Motion, Branding, and Web Development. I came to Algonquin's Graphic Design program out of high school with an interest in all things design.
-grad_portfolio1: "/designers/portfolio-pieces/pereira-kyle-portfolio1.jpg"
+grad_video1: "/designers/portfolio-pieces/pereira-kyle-portfolio1.mp4"
 grad_portfolio2: "/designers/portfolio-pieces/pereira-kyle-portfolio2.jpg"
 grad_portfolio3: "/designers/portfolio-pieces/pereira-kyle-portfolio3.jpg"
 filters:
@@ -15,8 +15,8 @@ filters:
   - "motion"
   - "web"
 interests:
-  - "Motion"
-  - "Branding"
+  - "Motion • "
+  - "Branding • "
   - "Web"
 social_twitter: "https://twitter.com/KylePereiraGD"
 social_vimeo: "https://vimeo.com/kylepereira"

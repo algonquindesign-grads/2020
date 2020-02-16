@@ -15,3 +15,23 @@ patterns:
     title: "Information Section"
     description: |
       The information section contains the neccessary info on the 2020 AC Grad Show.
+  grad-details:
+    title: "Graduate Details"
+    description: |
+      The graduate details pattern give all the details about the relevant graduate.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.grads[0]"
+          type: grads
+  grad-pieces:
+    title: "Graduate Pieces"
+    description: |
+      The graduate pieces pattern diplays the relevant graduates portfolio pieces.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.grads[0]"
+          type: grads

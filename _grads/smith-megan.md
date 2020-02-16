@@ -15,8 +15,8 @@ filters:
   - "illustration"
   - "uxui"
 interests:
-  - "Branding"
-  - "UX/UI"
+  - "Branding • "
+  - "UX/UI • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/megan-smith-designer/"
 social_instagram: "https://www.instagram.com/megan.designer/"

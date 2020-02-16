@@ -15,8 +15,8 @@ filters:
   - "illustration"
   - "print"
 interests:
-  - "Branding"
-  - "Print"
+  - "Branding • "
+  - "Print • "
   - "Illustration"
 social_twitter: "https://twitter.com/EricaRDesigns"
 social_behance: "https://www.behance.net/ericarios227"

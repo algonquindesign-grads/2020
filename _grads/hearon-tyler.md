@@ -15,8 +15,8 @@ filters:
   - "illustration"
   - "print"
 interests:
-  - "Branding"
-  - "Print"
+  - "Branding • "
+  - "Print • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/tyler-hearon-b12465198/"
 social_instagram: "instagram.com/hearondesign/"

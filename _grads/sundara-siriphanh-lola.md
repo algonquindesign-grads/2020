@@ -15,9 +15,9 @@ filters:
   - "illustration"
   - "print"
 interests:
-  - "Packaging"
-  - "Illustration"
-  - "Branding"
+  - "Packaging • "
+  - "Illustration • "
+  - "Branding • "
   - "Print"
 social_linkedin: "https://www.linkedin.com/in/lola-sundara-5922811a0/"
 social_instagram: "https://www.instagram.com/lolasundara/?hl=en"

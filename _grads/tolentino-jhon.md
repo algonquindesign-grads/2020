@@ -15,8 +15,8 @@ filters:
   - "print"
   - "uxui"
 interests:
-  - "Motion"
-  - "Print"
+  - "Motion • "
+  - "Print • "
   - "UX/UI"
 social_vimeo: "https://vimeo.com/user71778243"
 meta_sitetitle: "Jhon Tolentino · Graphic Designer"

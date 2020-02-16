@@ -15,8 +15,8 @@ filters:
   - "uxui"
   - "web"
 interests:
-  - "Branding"
-  - "UX/UI"
+  - "Branding • "
+  - "UX/UI • "
   - "Web Design"
 social_instagram: "https://www.instagram.com/cecithebowles/?hl=en"
 meta_sitetitle: "Cecilia Bowles · Graphic Designer"

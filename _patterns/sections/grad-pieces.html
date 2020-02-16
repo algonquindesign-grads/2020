@@ -1,0 +1,35 @@
+<section class="grid grid-middle wrapper gutter-1-4">
+  <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+    {% if page.grad_portfolio1 %}
+      <div class="embed embed-16by9">
+        <img class="img-flex embed-item" src="{{site.imgurl}}{{include.data.grad_portfolio1}}" alt="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece one" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece one">
+      </div>
+    {% else %}
+      <div class="embed embed-16by9">
+        <video class="embed-item" src="{{site.imgurl}}{{include.data.grad_video1}}" controls autoplay muted></video>
+      </div>
+    {% endif %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4">
+    {% if page.grad_portfolio2 %}
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.imgurl}}{{include.data.grad_portfolio2}}" alt="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece two" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece two">
+      </div>
+    {% else %}
+      <div class="embed embed-1by1">
+        <video class="embed-item" src="{{site.imgurl}}{{include.data.grad_video2}}" controls autoplay muted></video>
+      </div>
+    {% endif %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4">
+    {% if page.grad_portfolio3 %}
+      <div class="embed embed-1by1">
+        <img class="img-flex embed-item" src="{{site.imgurl}}{{include.data.grad_portfolio3}}" alt="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece three" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Portfolio piece three">
+      </div>
+    {% else %}
+      <div class="embed embed-1by1">
+        <video class="embed-item" src="{{site.imgurl}}{{include.data.grad_video3}}" controls autoplay muted></video>
+      </div>
+    {% endif %}
+  </div>
+</section>

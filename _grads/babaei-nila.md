@@ -3,7 +3,7 @@ layout: graduates
 first_name: "Nila"
 last_name: "Babaei"
 grad_headshot: "/designers/grad-headshots/headshot-babaei-nila.jpg"
-grad_website: "nilababaei.ca"
+grad_website: "https://www.nilababaei.ca/"
 grad_email: "nilababaei@hotmail.com"
 about_me: |
   My name is Nila and I am a graphic designer with a passion for code and animal rights. I love creating beautiful designs that have an impact on people.
@@ -14,8 +14,8 @@ filters:
   - "uxui"
   - "web"
 interests:
-  - "Web Development"
-  - "UI/UX"
+  - "Web Development • "
+  - "UI/UX • "
   - "Web Design"
 social_github: "https://github.com/nilababaei"
 social_linkedin: "https://www.linkedin.com/in/nilababaei/"

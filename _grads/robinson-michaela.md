@@ -14,8 +14,8 @@ filters:
   - "branding"
   - "print"
 interests:
-  - "Branding"
-  - "Marketing"
+  - "Branding • "
+  - "Marketing • "
   - "Packaging"
 social_linkedin: "https://www.linkedin.com/in/michaela-robinson-52928717a/"
 meta_sitetitle: "Michaela Robinson · Graphic Designer"

@@ -15,8 +15,8 @@ filters:
   - "illustration"
   - "print"
 interests:
-  - "Branding"
-  - "Illustration"
+  - "Branding • "
+  - "Illustration • "
   - "Packaging"
 meta_sitetitle: "Julian Redmond · Graphic Designer"
 meta_description: "Julian Redmond's about page"

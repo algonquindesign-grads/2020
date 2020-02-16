@@ -3,7 +3,7 @@ layout: graduates
 first_name: "Natacha"
 last_name: "Dubois"
 grad_headshot: "/designers/grad-headshots/headshot-dubois-natacha.jpg"
-grad_website: "natachadubois.ca"
+grad_website: "https://natachadubois.ca"
 grad_email: "natachajdubois@gmail.com"
 about_me: |
   Hi! I'm Natacha Dubois. I am a Graphic Designer who has always had a passion for illustrations. While being in the graphic design program, I developed an interest in web design and all things print.
@@ -15,8 +15,8 @@ filters:
   - "print"
   - "web"
 interests:
-  - "Web"
-  - "Print"
+  - "Web • "
+  - "Print • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/natacha-dubois-9a36a3154/"
 meta_sitetitle: "Natacha Dubois · Graphic Designer"

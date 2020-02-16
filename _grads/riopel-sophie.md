@@ -15,8 +15,8 @@ filters:
   - "print"
   - "uxui"
 interests:
-  - "Branding"
-  - "UX/UI"
+  - "Branding • "
+  - "UX/UI • "
   - "Packaging"
 social_instagram: "https://www.instagram.com/ixamxkamii/"
 meta_sitetitle: "Sophie Riopel · Graphic Designer"

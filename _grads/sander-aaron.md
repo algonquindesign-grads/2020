@@ -14,8 +14,8 @@ filters:
   - "uxui"
   - "web"
 interests:
-  - "Web Design"
-  - "UX/UI"
+  - "Web Design • "
+  - "UX/UI • "
 social_github: "https://github.com/sander-aaron"
 social_linkedin: "https://www.linkedin.com/in/aaron-sander-314ba2180/"
 social_behance: "https://www.behance.net/sand02743822"

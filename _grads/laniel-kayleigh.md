@@ -15,8 +15,8 @@ filters:
   - "motion"
   - "print"
 interests:
-  - "Illustration"
-  - "Storyboarding"
+  - "Illustration • "
+  - "Storyboarding • "
   - "Print"
 social_instagram: "https://www.instagram.com/canadiamaple/"
 meta_sitetitle: "Kayleigh Laniel · Graphic Designer"

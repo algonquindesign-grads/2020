@@ -1,7 +1,7 @@
 <nav>
-  <ul class="social-nav list-group-inline">
+  <ul class="social-nav list-group-inline push-0">
     <li>
-      <a class="block" href="{{include.data.social_website}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my portfolio website." target="_blank" rel="noopener noreferrer">
+      <a class="block" href="{{include.data.grad_website}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my portfolio website." target="_blank" rel="noopener noreferrer">
           <i class="website icon i-48">
             <svg><use xlink:href="/images/icons.svg#website-icon"></use></svg>
             <svg><use xlink:href="/images/icons.svg#website-icon-hover"></use></svg>
@@ -10,7 +10,7 @@
       </a>
     </li>
     <li class="push-r">
-      <a class="block" href="{{include.data.social_email}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • my email." target="_blank" rel="noopener noreferrer">
+      <a class="block" href="mailto:{{include.data.grad_email}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • my email.">
           <i class="email icon i-48">
             <svg><use xlink:href="/images/icons.svg#email-icon"></use></svg>
             <svg><use xlink:href="/images/icons.svg#email-icon-hover"></use></svg>
@@ -18,7 +18,7 @@
         <span class="icon-label visually-hidden">Email</span>
       </a>
     </li>
-    {% if include.data.social_facebook %}
+    {% if page.social_facebook %}
       <li>
         <a class="block" href="{{include.data.social_facebook}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Facebook page." target="_blank" rel="noopener noreferrer">
             <i class="facebook icon i-48">
@@ -29,7 +29,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_twitter %}
+    {% if page.social_twitter %}
       <li>
         <a class="block" href="{{include.data.social_twitter}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Twitter page." target="_blank" rel="noopener noreferrer">
             <i class="twitter icon i-48">
@@ -40,7 +40,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_instagram %}
+    {% if page.social_instagram %}
       <li>
         <a class="block" href="{{include.data.social_instagram}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Instagram page." target="_blank" rel="noopener noreferrer">
             <i class="instagram icon i-48">
@@ -51,7 +51,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_linkedin %}
+    {% if page.social_linkedin %}
       <li>
         <a class="block" href="{{include.data.social_linkedin}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my LinkedIn page." target="_blank" rel="noopener noreferrer">
             <i class="linkedin icon i-48">
@@ -62,7 +62,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_youtube %}
+    {% if page.social_youtube %}
       <li>
         <a class="block" href="{{include.data.social_youtube}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Youtube page." target="_blank" rel="noopener noreferrer">
             <i class="youtube icon i-48">
@@ -73,7 +73,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_vimeo %}
+    {% if page.social_vimeo %}
       <li>
         <a class="block" href="{{include.data.social_vimeo}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Vimeo page." target="_blank" rel="noopener noreferrer">
             <i class="vimeo icon i-48">
@@ -84,7 +84,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_behance %}
+    {% if page.social_behance %}
       <li>
         <a class="block" href="{{include.data.social_behance}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Behance page." target="_blank" rel="noopener noreferrer">
             <i class="behance icon i-48">
@@ -95,7 +95,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_adobeportfolio %}
+    {% if page.social_adobeportfolio %}
       <li>
         <a class="block" href="{{include.data.social_adobe-portfolio}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Adobe Portfolio page." target="_blank" rel="noopener noreferrer">
             <i class="adobe-portfolio icon i-48">
@@ -106,7 +106,7 @@
         </a>
       </li>
     {% endif %}
-    {% if include.data.social_github %}
+    {% if page.social_github %}
       <li>
         <a class="block" href="{{include.data.social_github}}" aria-label="{{include.data.first_name}} {{include.data.last_name}} • Link to my Github page." target="_blank" rel="noopener noreferrer">
             <i class="github icon i-48">

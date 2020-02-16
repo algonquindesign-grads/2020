@@ -14,8 +14,8 @@ filters:
   - "branding"
   - "illustration"
 interests:
-  - "Graphic Design"
-  - "Branding"
+  - "Graphic Design • "
+  - "Branding • "
   - "Illustration"
 social_linkedin: "https://www.linkedin.com/in/jianna-nolan-b76214156/"
 social_facebook: "https://www.facebook.com/jianna.design/"

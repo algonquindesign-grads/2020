@@ -38,7 +38,7 @@ patterns:
         type: object
         data:
           source: "site.grads[0]"
-          type: grad
+          type: grads
   additional-nav:
     title: "Additional Navigations"
     description: |

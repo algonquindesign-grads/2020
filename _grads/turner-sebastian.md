@@ -15,8 +15,8 @@ filters:
   - "web"
   - "illustration"
 interests:
-  - "Motion"
-  - "Web"
+  - "Motion • "
+  - "Web • "
   - "Illustration"
 social_github: "https://github.com/Sebby-T"
 social_youtube: "https://www.youtube.com/channel/UCRTj95AG8to6vT8c83kqVAw"

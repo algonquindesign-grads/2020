@@ -1,5 +1,9 @@
 /* LOGO NAVIGATION */
 
+.logo-nav:focus {
+  outline-color: var(--color-accent);
+}
+
 .logo-nav > .wordmark {
   display: none;
 
@@ -161,7 +165,7 @@
     height: unset;
     background-color: transparent;
 
-    overflow: auto;
+    overflow: unset;
   }
 
   .logo-nav > .logo,
@@ -195,6 +199,7 @@
   .main-nav .active {
     background-color: transparent;
     color: var(--color-primary);
+    outline-color: var(--color-accent);
   }
 
   /* FILTER NAVIGATION – CONTINUED */
