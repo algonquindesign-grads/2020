@@ -1,7 +1,7 @@
 var $btn = $('.top-btn')
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() > 600) {
+  if ($(window).scrollTop() > 900) {
     $btn.addClass('show');
   } else {
     $btn.removeClass('show');

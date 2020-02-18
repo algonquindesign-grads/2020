@@ -1,0 +1,14 @@
+<nav class="pad-t">
+  <ul class="grid grid-middle page-nav push-0 gutter-2 list-group">
+    <li class="unit xs-1-2 text-left">
+      {% if page.previous.url %}
+        {% pattern buttons/prev %}
+      {% endif %}
+    </li>
+    <li class="unit xs-1-2 text-right">
+      {% if page.next.url %}
+        {% pattern buttons/next-btn %}
+      {% endif %}
+    </li>
+  </ul>
+</nav>

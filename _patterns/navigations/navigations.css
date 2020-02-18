@@ -216,4 +216,15 @@
     width: 50%;
   }
 
+  /* PAGE NAVIGATION */
+
+  .page-nav {
+    width: 100%;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
 }
