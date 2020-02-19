@@ -9,6 +9,12 @@ patterns:
       Standard Card layout to showcase the respective prof and their subject taught.
     padding: 1em
     width: 20em
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.teachers[0]"
+          type: teacher
   grad-card:
     title: "Graduates Card"
     description: |
