@@ -13,14 +13,6 @@ $btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
-// ;$('.play-sound').click(function() {
-//     if ($('video').get(0).muted == true) {
-//         $('video').get(0).muted = false;
-//     } else {
-//         $('video').get(0).muted = true;
-//     }
-// });
-
 $(".play-sound").click(function() {
   if ($("video").get(0).muted == true) {
     $(".play-sound").removeClass("btn-muted");
