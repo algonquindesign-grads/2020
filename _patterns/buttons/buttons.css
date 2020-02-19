@@ -83,6 +83,12 @@
   outline: none;
 }
 
+.play-sound {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
 .muted {
   border-radius: unset;
   transition: all .2s linear;
