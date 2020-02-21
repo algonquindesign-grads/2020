@@ -1,3 +1,10 @@
 title: "Banners"
 description: |
   Here are all the available banner patterns for the 2020 grad show website.
+
+
+patterns:
+  2020-banner:
+    title: "2020 Homepage Banner"
+    description: |
+      The 2020 banner displays on the grad homepage. It supports a 2020 year motion video, and a default image banner in case the video fails to load.
