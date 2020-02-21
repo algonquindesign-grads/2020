@@ -2,6 +2,15 @@
   color: var(--color-accent);
 }
 
+.sp-links {
+  text-decoration: none;
+  color: var(--color-primary);
+}
+
+.sp-links:hover {
+  text-decoration: underline;
+}
+
 .gradient-section {
   background-image: linear-gradient(to right, rgb(171,230,0,0.2), rgb(54,209,220,0.2));
 }
