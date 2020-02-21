@@ -6,8 +6,6 @@ grad_headshot: "/designers/grad-headshots/headshot-huynh-jack.jpg"
 grad_website: "https://www.jackhuynh.ca/"
 grad_email: "hi@jackhuynh.ca"
 about_me: |
-  Insert description here.
-grad_portfolio1: "/designers/portfolio-pieces/huynh-jack-portfolio1.jpg"
 grad_portfolio2: "/designers/portfolio-pieces/huynh-jack-portfolio2.jpg"
 grad_portfolio3: "/designers/portfolio-pieces/huynh-jack-portfolio3.jpg"
 filters:
