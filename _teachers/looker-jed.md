@@ -1,6 +1,6 @@
 ---
-layout: teachers
 first_name: "Jed"
 last_name: "Looker"
-grad_headshot: "{{site.imgurl}}/designers/designer-headshots/headshot-looker-jed.jpg"
-subject: "Design Research"
+prof_headshot: "headshot-looker-jed.jpg"
+subject_taught: "Design Research"
+---

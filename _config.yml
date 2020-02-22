@@ -25,3 +25,5 @@ patternbot:
 collections:
   grads:
     output: true
+  teachers:
+    output: true
