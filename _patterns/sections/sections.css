@@ -32,6 +32,8 @@
 }
 
 .off .grad-item a {
+  pointer-events: none;
+  cursor: default;
   filter: grayscale(1) blur(1.5px);
   opacity: .6;
   transition: all .3s linear;
@@ -44,6 +46,8 @@
 #print:checked ~ .off .grad-item .print,
 #uxui:checked ~ .off .grad-item .uxui,
 #web:checked ~ .off .grad-item .web {
+  pointer-events: auto;
+  cursor: pointer;
   filter: grayscale(0) blur(0px);
   opacity: 1;
 }
